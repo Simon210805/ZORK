@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drageredderen</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Drageredderen</h1>
+    
+    <div id="inventory">
+        <p>Inventar: <span id="item"></span></p>
+    </div>
+
+    <p id="story">Du står ved inngangen til den mørke dalen. Landsbyen din har blitt angrepet av en ond drage. Tre stier ligger foran deg:<br>
+    Venstre: En bratt fjellsti<br>
+    Midten: En mystisk skog<br>
+    Høyre: En gammel bro over elven</p>
+
+    <img id="story-image" src="https://www.shutterstock.com/image-photo/outdoor-photo-ultra-realistic-3d-600nw-2666960253.jpg" alt="Startbilde">
+
+    <div class="buttons">
+        <button onclick="choosePath('left')">Ta fjellstien</button>
+        <button onclick="choosePath('center')">Gå inn i skogen</button>
+        <button onclick="choosePath('right')">Kryss den gamle broen</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
